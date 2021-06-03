@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir Next";
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #005f99;
+    color: #fff;
+    height: 80px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 30px;
+    padding: 20px 40px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 40px;
+  }
+
+  ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+  
+  .main {
+    padding: 60px 50px;
+  }
+
+  .copy-container{
+    background-image: 
+    url(img/bgimage.jpg);
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+    color: #fff;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+    color: #fff;
+  }
+
+  .lesson-title{
+      text-align: center;
+      margin-top: 40px;
+      font-size: 36px;
+  }
+  
+  .card-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+  }
+  
+  .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 33.3%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.header-card{
+    height: 150px;
+    background-color: #ffe0d8;
+}
+
+.content-card{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    line-height: 1.7;
+}
+  
+  .contact-form {
+    padding-top: 100px;
+  }
+  
+  /* Add CSS for <input> and <textarea> tags */
+  input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  input{
+    border: 1px solid #dee7ec;
+  }
+  
+  /* Add CSS for contact-submit */
+  .contact-submit{
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+  
+  .footer {
+    background-color: #005f99;
+    color: #fff;
+    height: 60px;
+  }
+  
+  .footer-logo {
+    
+  }
+  
+  .footer-list {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
