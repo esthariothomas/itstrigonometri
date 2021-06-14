@@ -13,7 +13,16 @@ body {
   li {
     list-style: none;
   }
-  
+  a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
   .header {
     background-color: #005f99;
     color: #fff;
@@ -24,6 +33,8 @@ body {
     float: left;
     font-size: 30px;
     padding: 20px 40px;
+    font-weight: bold;
+    color: white;
   }
   
   .header-list li {
@@ -34,6 +45,10 @@ body {
   ul li a{
     color: #fff;
     text-decoration: none;
+}
+button a{
+  text-decoration: none;
+  color: black;
 }
   
   .main {
@@ -137,16 +152,19 @@ body {
   }
   .titleLesson{
     text-align: center;
+    color: white;
   }
   .titleChapter{
     color: white;
     font-weight: normal;
   }
   .content{
-    width: 800px;
-    height: auto;
+    max-width: 1200px;
     margin-top: 10px;
     margin-bottom: 15px;
+    background-color: #8CE5FA;
+    margin-left: auto;
+    margin-right: auto;
   }
   .btn{
     padding: 12px 30px;
@@ -168,3 +186,11 @@ body {
   .quizBtn{
     text-align: center;
   }
+.contentWrapper p{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.subTopic{
+  margin-top :15px;
+  margin-left: 25px;
+}
