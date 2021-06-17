@@ -1,229 +1,229 @@
 const questions = [
   {
-      question: "How many days makes a week ?",
-      optionA: "10 days",
-      optionB: "14 days",
-      optionC: "5 days",
-      optionD: "7 days",
-      correctOption: "optionD"
+      question: "In a right triangle, the measure of one of the angles is 49° and the hypotenuse has a length of 50 cm. Which of the following is the nearest approximation to the length, in cm, of the leg opposite to this angle?",
+      optionA: "32.8",
+      optionB: "57.5",
+      optionC: "37.7",
+      optionD: "30.3",
+      correctOption: "optionC"
   },
 
   {
-      question: "How many players are allowed on a soccer pitch ?",
-      optionA: "10 players",
-      optionB: "11 players",
-      optionC: "9 players",
-      optionD: "12 players",
+      question: "Sin 30° equals?", 
+      optionA: "0",
+      optionB: "1/2",
+      optionC: "1/2 √3",
+      optionD: "2/2 √3",
       correctOption: "optionB"
   },
 
   {
-      question: "Who was the first President of USA ?",
-      optionA: "Donald Trump",
-      optionB: "Barack Obama",
-      optionC: "Abraham Lincoln",
-      optionD: "George Washington",
+      question: "Cos 90° equals ?",
+      optionA: "1",
+      optionB: "Not defined",
+      optionC: "√3 ",
+      optionD: "0",
       correctOption: "optionD"
   },
 
   {
-      question: "30 days has ______ ?",
-      optionA: "January",
-      optionB: "December",
-      optionC: "June",
-      optionD: "August",
+      question: "A rectangle has dimensions 10 cm by 5 cm. Determine the measures of the angles at the point where the diagonals intersect.",
+      optionA: "42°",
+      optionB: "47°",
+      optionC: "53°",
+      optionD: "64°",
       correctOption: "optionC"
   },
 
   {
-      question: "How manay hours can be found in a day ?",
-      optionA: "30 hours",
-      optionB: "38 hours",
-      optionC: "48 hours",
-      optionD: "24 hours",
+      question: "The lengths of side AB and side BC of a scalene triangle ABC are 12 cm and 8 cm respectively. The size of angle C is 59°. Find the length of side AC in cm.",
+      optionA: "10",
+      optionB: "12.5",
+      optionC: "5.7",
+      optionD: "14",
       correctOption: "optionD"
   },
 
   {
-      question: "Which is the longest river in the world ?",
-      optionA: "River Nile",
-      optionB: "Long River",
-      optionC: "River Niger",
-      optionD: "Lake Chad",
+      question: "From the top of a 200 meters high building, the angle of depression to the bottom of a second building is 20 degrees. From the same point, the angle of elevation to the top of the second building is 10 degrees. Calculate the height of the second building.",
+      optionA: "200 + 200 x tan(10°) / tan(20°)",
+      optionB: "200 + 200 x tan(10°) / sin(20°)",
+      optionC: "200 + 200 x tan(20°) / tan(10°)",
+      optionD: "200 + 200 x tan(20°) / sin(10°)",
       correctOption: "optionA"
   },
 
   {
-      question: "_____ is the hottest Continent on Earth ?",
-      optionA: "Oceania",
-      optionB: "Antarctica",
-      optionC: "Africa",
-      optionD: "North America",
+      question: "Find the area of a square whose diagonal is 40 meters.",
+      optionA: "40m²",
+      optionB: "80m²",
+      optionC: "800m²",
+      optionD: "1600m²",
       correctOption: "optionC"
   },
 
   {
-      question: "Which country is the largest in the world ?",
-      optionA: "Russia",
-      optionB: "Canada",
-      optionC: "Africa",
-      optionD: "Egypt",
+      question: "Which of the following is not an identity?",
+      optionA: "1 - sec²a = tan²a",
+      optionB: "sin² a + cos²a = 1",
+      optionC: "1 + cot² a = csc² a",
+      optionD: "sin a = tan a * cos a",
       correctOption: "optionA"
   },
 
   {
-      question: "Which of these numbers is an odd number ?",
-      optionA: "Ten",
-      optionB: "Twelve",
-      optionC: "Eight",
-      optionD: "Eleven",
-      correctOption: "optionD"
-  },
-
-  {
-      question: `"You Can't see me" is a popular saying by`,
-      optionA: "Eminem",
-      optionB: "Bill Gates",
-      optionC: "Chris Brown",
-      optionD: "John Cena",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Where is the world tallest building located ?",
-      optionA: "Africa",
-      optionB: "California",
-      optionC: "Dubai",
-      optionD: "Italy",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "The longest river in the United Kingdom is ?",
-      optionA: "River Severn",
-      optionB: "River Mersey",
-      optionC: "River Trent",
-      optionD: "River Tweed",
-      correctOption: "optionA"
-  },
-
-
-  {
-      question: "How many permanent teeth does a dog have ?",
-      optionA: "38",
-      optionB: "42",
-      optionC: "40",
-      optionD: "36",
+      question: "sin t + cos2 t / sin t equals",
+      optionA: "sin t",
+      optionB: "csc t",
+      optionC: "sec t",
+      optionD: "cos t",
       correctOption: "optionB"
   },
 
   {
-      question: "Which national team won the football World cup in 2018 ?",
-      optionA: "England",
-      optionB: "Brazil",
-      optionC: "Germany",
-      optionD: "France",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Which US state was Donald Trump Born ?",
-      optionA: "New York",
-      optionB: "California",
-      optionC: "New Jersey",
-      optionD: "Los Angeles",
+      question: "Which of the following is an identity?",
+      optionA: "sin (a) cos (a) = (1/2) sin(2a)",
+      optionB: "sin a + cos a = 1",
+      optionC: "sin(-a) = sin a",
+      optionD: "tan a = cos a / sin a",
       correctOption: "optionA"
   },
 
   {
-      question: "How man states does Nigeria have ?",
-      optionA: "24",
-      optionB: "30",
-      optionC: "36",
-      optionD: "37",
+      question: "If 0 < t < 2π such that sin t = √2 / 2 and cot t < 0, then t = ",
+      optionA: " π / 4",
+      optionB: "5 π / 4",
+      optionC: "7 π / 4",
+      optionD: "3 π / 4",
+      correctOption: "optionD"
+  },
+
+  {
+      question: "Sin equals?",
+      optionA: "Adjacent / Hypotenuse",
+      optionB: "Hypotenuse / Opposite",
+      optionC: "Hypotenuse / Adjacent",
+      optionD: "Opposite / Hypotenuse",
+      correctOption: "optionD"
+  },
+
+
+  {
+      question: "Tan equals?",
+      optionA: "Adjacent / Hypotenuse",
+      optionB: "Hypotenuse / Opposite",
+      optionC: "Opposite / Adjacent",
+      optionD: "Opposite / Hypotenuse",
       correctOption: "optionC"
   },
 
   {
-      question: "____ is the capital of Nigeria ?",
-      optionA: "Abuja",
-      optionB: "Lagos",
-      optionC: "Calabar",
-      optionD: "Kano",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "Los Angeles is also known as ?",
-      optionA: "Angels City",
-      optionB: "Shining city",
-      optionC: "City of Angels",
-      optionD: "Lost Angels",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "What is the capital of Germany ?",
-      optionA: "Georgia",
-      optionB: "Missouri",
-      optionC: "Oklahoma",
-      optionD: "Berlin",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "How many sides does an hexagon have ?",
-      optionA: "Six",
-      optionB: "Sevene",
-      optionC: "Four",
-      optionD: "Five",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "How many planets are currently in the solar system ?",
-      optionA: "Eleven",
-      optionB: "Seven",
-      optionC: "Nine",
-      optionD: "Eight",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Which Planet is the hottest ?",
-      optionA: "Jupitar",
-      optionB: "Mercury",
-      optionC: "Earth",
-      optionD: "Venus",
+      question: "If 0 < t < 2π and sin t = - 1, then t = ",
+      optionA: " π / 2",
+      optionB: "3 π / 2",
+      optionC: " 5 π / 4",
+      optionD: " π",
       correctOption: "optionB"
   },
 
   {
-      question: "where is the smallest bone in human body located?",
-      optionA: "Toes",
-      optionB: "Ears",
-      optionC: "Fingers",
-      optionD: "Nose",
-      correctOption: "optionB"
+      question: "sin (x) + sin(x - π) + sin(x + π) = ",
+      optionA: "-sin(x)",
+      optionB: "sin (x)",
+      optionC: "sec (x)",
+      optionD: "cos (x)",
+      correctOption: "optionA"
   },
 
-  {
-      question: "How many hearts does an Octopus have ?",
-      optionA: "One",
-      optionB: "Two",
-      optionC: "Three",
-      optionD: "Four",
-      correctOption: "optionC"
-  },
+//   {
+//       question: "How man states does Nigeria have ?",
+//       optionA: "24",
+//       optionB: "30",
+//       optionC: "36",
+//       optionD: "37",
+//       correctOption: "optionC"
+//   },
 
-  {
-      question: "How many teeth does an adult human have ?",
-      optionA: "28",
-      optionB: "30",
-      optionC: "32",
-      optionD: "36",
-      correctOption: "optionC"
-  }
+//   {
+//       question: "____ is the capital of Nigeria ?",
+//       optionA: "Abuja",
+//       optionB: "Lagos",
+//       optionC: "Calabar",
+//       optionD: "Kano",
+//       correctOption: "optionA"
+//   },
+
+//   {
+//       question: "Los Angeles is also known as ?",
+//       optionA: "Angels City",
+//       optionB: "Shining city",
+//       optionC: "City of Angels",
+//       optionD: "Lost Angels",
+//       correctOption: "optionC"
+//   },
+
+//   {
+//       question: "What is the capital of Germany ?",
+//       optionA: "Georgia",
+//       optionB: "Missouri",
+//       optionC: "Oklahoma",
+//       optionD: "Berlin",
+//       correctOption: "optionD"
+//   },
+
+//   {
+//       question: "How many sides does an hexagon have ?",
+//       optionA: "Six",
+//       optionB: "Sevene",
+//       optionC: "Four",
+//       optionD: "Five",
+//       correctOption: "optionA"
+//   },
+
+//   {
+//       question: "How many planets are currently in the solar system ?",
+//       optionA: "Eleven",
+//       optionB: "Seven",
+//       optionC: "Nine",
+//       optionD: "Eight",
+//       correctOption: "optionD"
+//   },
+
+//   {
+//       question: "Which Planet is the hottest ?",
+//       optionA: "Jupitar",
+//       optionB: "Mercury",
+//       optionC: "Earth",
+//       optionD: "Venus",
+//       correctOption: "optionB"
+//   },
+
+//   {
+//       question: "where is the smallest bone in human body located?",
+//       optionA: "Toes",
+//       optionB: "Ears",
+//       optionC: "Fingers",
+//       optionD: "Nose",
+//       correctOption: "optionB"
+//   },
+
+//   {
+//       question: "How many hearts does an Octopus have ?",
+//       optionA: "One",
+//       optionB: "Two",
+//       optionC: "Three",
+//       optionD: "Four",
+//       correctOption: "optionC"
+//   },
+
+//   {
+//       question: "How many teeth does an adult human have ?",
+//       optionA: "28",
+//       optionB: "30",
+//       optionC: "32",
+//       optionD: "36",
+//       correctOption: "optionC"
+//   }
 
 ]
 
@@ -352,11 +352,11 @@ function handleEndGame() {
       remark = "Bad Grades, Keep Practicing."
       remarkColor = "red"
   }
-  else if (playerScore >= 4 && playerScore < 7) {
+  else if (playerScore >= 4 && playerScore < 8) {
       remark = "Average Grades, You can do better."
       remarkColor = "orange"
   }
-  else if (playerScore >= 7) {
+  else if (playerScore >= 8) {
       remark = "Excellent, Keep the good work going."
       remarkColor = "green"
   }

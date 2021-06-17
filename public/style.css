@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir Next";
+    font-family: 'Montserrat', sans-serif;
+    background-color: #023E73;
+  }
+  
+ul.navbar{
+  list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+  .header {
+    background-color: #005f99;
+    color: #fff;
+    height: 80px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 30px;
+    padding: 20px 40px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 40px;
+  }
+
+  ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+  
+  .main {
+    padding: 60px 50px;
+  }
+
+  .copy-container{
+    background-image: 
+    url(../img/bgimage.jpg);
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+    color: #fff;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+    color: #fff;
+  }
+
+  .lesson-title{
+      text-align: center;
+      margin-top: 40px;
+      font-size: 36px;
+  }
+  
+  .card-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+  }
+  
+  .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #A7BBC7;
+    width: 33.3%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.header-card{
+    height: 150px;
+    background-color: #ffe0d8;
+}
+
+.content-card{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    line-height: 1.7;
+}
+.chapter{
+  width: 100%;
+  height: 150px;
+}
+  
+  .contact-form {
+    padding-top: 100px;
+  }
+  
+  /* Add CSS for <input> and <textarea> tags */
+  input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  input{
+    border: 1px solid #dee7ec;
+  }
+  
+  /* Add CSS for contact-submit */
+  .contact-submit{
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+  
+  .footer {
+    background-color: #005f99;
+    color: #fff;
+    height: 60px;
+  }
+  
+  .footer-list {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+  .titleLesson{
+    text-align: center;
+    color: white;
+  }
+
+  .titleChapter{
+    color: #000;
+    font-weight: normal;
+    padding-top: 25px;
+  }
+
+  .content{
+    max-width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .triangle1{
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .triangle2{
+    margin-left: 10px;
+    width: 700px;
+  }
+
+  .triangle3{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 400px;
+  }
+
+  .triangle4{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 650px;
+  }
+
+  .triangle5{
+    margin-left: 20px;
+    width: 650px;
+  }
+
+  .triangle6{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 680px;
+  }
+
+  .triangle7{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 600px;
+  }
+
+  .triangle8{
+    width: 770px;
+    margin-bottom: 30px;
+  }
+
+  .triangle9{
+    width: 770px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .list{
+    margin-left: 40px;
+  }
+
+  .button{
+    padding: 12px 30px;
+    color: #fff;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .btn:link, .btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+    font-size: 12px;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0 ,0, .2);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0 ,0, .2);
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after{
+    background-color: #fff;
+}
+
+.btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+  .quiz{
+    background-color: rgb(144, 203, 251);
+  }
+
+  .button:hover{
+    opacity: 1;
+  }
+
+  .fa{
+    margin: 6px;
+  }
+
+  .quizBtn{
+    text-align: center;
+  }
+
+.contentWrapper p{
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.contentWrapper p.phytagoras{
+  margin-bottom: 20px;
+}
+
+.contentWrapper p.noMarginTop{
+  margin:auto;
+  margin-left: 10px;
+}
+
+.subTopic{
+  margin-top :15px;
+  margin-left: 25px;
+}

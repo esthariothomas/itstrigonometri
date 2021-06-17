@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/style.css">
 </head>
 <body>
     <div class="header">
         <div class="header-logo"><a href="home.html">Trigonometry Online Learning</a></div>
         <div class="header-list">
-          <ul>
+          <ul class="navbar">
             <li><a href="chapter1.html">Chapter 1</a></li>
             <li><a href="chapter2.html">Chapter 2</a></li>
             <li><a href="chapter3.html">Chapter 3</a></li>
@@ -20,19 +20,40 @@
     </div>
     <div class="content">
         <div class="titleLesson">
-            <h1 class="titleChapter"> Chapter 1 </h1>
+            <h1 class="titleChapter"> Chapter 3 </h1>
         </div>
         <div class="contentWrapper">
             <div class="fotoContent"><img src="" alt=""></div>
-            <h3 class="subTopic"> Segitiga Bermuda</h3>
-            <p>
-                blablablabla
-            </p>
+            <h3 class="subTopic">Trigonometric Identities</h3>
+            <p>We have seen a few trigonometry basic and principles in the previous chapter. Now we will take a look deeper to a trigonometric identities which has a lot of formula.</p>
+            <p class="phytagoras"><b>Phytagoras Theorem</b></p>
+            <p class="noMarginTop">sin <sup>2</sup> θ + cos <sup>2</sup> θ = 1</p>
+            <p class="noMarginTop">1 + cot <sup>2</sup> θ = cosec <sup>2</sup> θ</p>
+            <p class="noMarginTop">tan <sup>2</sup> θ + 1 = sec <sup>2</sup> θ</p>
+            <p class="phytagoras"><b>Compound-angle Formula</b></p>
+            <p class="noMarginTop">cos (A + B) = cos A cos B - sin A sin B</p>
+            <p class="noMarginTop">cos (A - B) = cos A cos B + sin A sin B</p>
+            <p class="noMarginTop">sin (A + B) = sin A cos B + cos A sin B</p>
+            <p class="noMarginTop">sin (A - B) = sin A cos B - cos A sin B</p>
+            <h3 class="subTopic">Cosecant, Secant, and Cotangent</h3>
+            <img class="triangle9" src="img/cosec.png" alt="">
+            <p>From the image above, we can say:</p>
+            <br>
+            <p class="noMarginTop">sin (θ) = 1 / csc (θ)</p>
+            <p class="noMarginTop">cos (θ) = 1 / sec (θ)</p>
+            <p class="noMarginTop">tan (θ) = 1 / cot (θ)</p>
+            <p>And the other way around:</p>
+            <br>
+            <p class="noMarginTop">csc (θ) = 1 / sin (θ)</p>
+            <p class="noMarginTop">sec (θ) = 1 / cos (θ)</p>
+            <p class="noMarginTop">cot (θ) = 1 / tan (θ)</p>
+            <br><br>
+
         </div>
     </div>
 
     <div class="quizBtn">
-        <a href="quiz.html" class="btn quiz"><span class="fa hotOffer"></span>Quiz</a>
+        <a href="home.html" class="button quiz">Back to Home</a>
     </div>
 </body>
 </html>
