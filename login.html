@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/style.css">
+    <script src="validasi.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo"><a href="home.html">Trigonometry Online Learning</a></div>
+          <div class="header-list">
+            <ul>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="RegistOffer">
+        <div class="formContainer">
+            <form action="" method="POST" onsubmit="return validateRegister()" name="formRegist">
+                <input type="text" id="fullName" placeholder="Full Name" name="name">
+                <input type="password" name="password" id="password" placeholder="Password">
+                
+                <p id="lblError"> </p>
+                <div class="buttonSubmit">
+
+                    <button id="buttonSubmitRegister">
+                    Submit
+                    </button>
+                </div>
+
+                <p>Don't Have An Account? <a href="register.html" class="Allogin">Register</a></p>
+            </form>
+
+</body>
+</html>
