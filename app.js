@@ -12,6 +12,15 @@ app.use(express.static('public'));
 
 moongose.connect("mongodb://localhost:27017/ITStrigonometry", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 
+const usersSchema = {
+    name: String,
+    password: String,
+    dateofbirth: Date,
+    schoolname: String
+}
+
+const User = moongose.model("User", usersSchema);
+
 
 
 
