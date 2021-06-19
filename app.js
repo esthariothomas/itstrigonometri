@@ -8,7 +8,7 @@ const port = 3000;
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static('public'));
+app.use(express.static("public"));
 
 moongose.connect("mongodb://localhost:27017/ITStrigonometry", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 
@@ -29,6 +29,10 @@ const User = moongose.model("User", usersSchema);
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/home.html");
+})
+
+app.get('/chapter1', (req, res) => {
+    res.sendFile(__dirname + '/chapter1.html');
 })
 
 app.listen(port, () => {
