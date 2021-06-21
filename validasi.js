@@ -19,7 +19,7 @@ function validateRegister(){
     // }else if (!/^[a-zA-Z]*$/g.test(name)) {
     //     label.innerText = "Name Must be Alphabet";
     //     return false;
-    }
+    // }
     else if (schName=="") {
         label.innerText= "School Name Must be filled";
         return false;
