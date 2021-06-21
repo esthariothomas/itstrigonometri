@@ -15,6 +15,7 @@ function validateRegister(){
     }else if (name=="") {
         label.innerText= "Nama Must be filled";
         return false;
+    }
     // }else if (!/^[a-zA-Z]*$/g.test(name)) {
     //     label.innerText = "Name Must be Alphabet";
     //     return false;
