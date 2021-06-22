@@ -2,7 +2,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const moongose = require('mongoose');
+const mongoose = require('mongoose');
 const port = 3000;
 const ejs = require("ejs");
 
@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-moongose.connect("mongodb://localhost:27017/ITStrigonometry", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
+mongoose.connect("mongodb://localhost:27017/ITStrigonometry", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 
 const usersSchema = {
     name: String,
@@ -22,7 +22,7 @@ const usersSchema = {
     schoolname: String
 }
 
-const User = moongose.model("User", usersSchema);
+const User = mongoose.model("User", usersSchema);
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/home.html");
