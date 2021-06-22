@@ -24,12 +24,6 @@ const usersSchema = {
 
 const User = moongose.model("User", usersSchema);
 
-
-
-
-
-
-
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/home.html");
 })
@@ -37,6 +31,24 @@ app.get('/', (req, res) => {
 app.get('/chapter1', (req, res) => {
     res.sendFile(__dirname + '/chapter1.html');
 })
+
+app.get('/register', (req, res) => {
+    res.sendFile(__dirname + '/register.html');
+})
+
+app.post('register', (req, res) => {
+    const user = new User({
+        name: req.body.name,
+        password: req.body.password,
+        dateofbirth: req.body.date,
+        schoolname: req.body.schoolName
+    })
+    user.save((err) => {
+        if(!err) {
+            res.redirect('/');
+        }
+    });
+});
 
 app.listen(port, () => {
     console.log("Server is running on port 3000");
